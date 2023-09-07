@@ -3,8 +3,9 @@ import Navbar from '@/components/ui/Navbar'
 export default function Home() {
     return (
         <>
-            <Navbar />
-            <div>This is a thing</div>
+            <header className="bg-gray-100">
+                <Navbar />
+           </header>
         </>
     )
 }

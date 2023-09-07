@@ -1,19 +1,24 @@
 import { FC } from 'react'
-import nav from '@/styles/navbar.module.css'
+import Button from './Button'
 
-export default function Navbar() {     
+export default function Navbar() {
     return (
-            <div className={nav.navbar}>
-                <div>
-                    Justin Gee
-                </div>
-                <a>
-                    Works
-                </a>
-                <a>
-                    Source
-                </a>
+        <nav className="flex justify-between item-center">
+            <div>
+                image
             </div>
+            <div className="">
+                <ul className="flex items-center gap-[4vw]">
+                    <li>
+                        <a className="hover:text-gray-500" href="#">Works</a>
+                    </li>
+                    <li>
+                        <a className="hover:text-gray-500" href="#">Source</a>
+                    </li>
+                </ul>
+            </div>
+        <Button />
+        </nav>
     )
 }
-          
+
