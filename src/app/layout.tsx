@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en" className="dark">
-            <body className="{inter.className} h-screen w-[50%] mx-auto">
+            <body className="{inter.className} w-[85%] mx-auto">
                 {children}
             </body>
         </html>

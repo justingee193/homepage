@@ -1,23 +1,23 @@
-import { FC } from 'react'
-import Button from './Button'
-
 export default function Navbar() {
     return (
-        <nav className="flex justify-between item-center">
+        <nav className="grid grid-flow-col justify-stretch">
             <div>
-                image
+                Justin Gee
             </div>
             <div className="">
-                <ul className="flex items-center gap-[4vw]">
+                <ul className="flex justify-start gap-4"> 
                     <li>
                         <a className="hover:text-gray-500" href="#">Works</a>
                     </li>
                     <li>
                         <a className="hover:text-gray-500" href="#">Source</a>
                     </li>
+
                 </ul>
             </div>
-        <Button />
+            <div className="flex justify-end">
+                darkmode
+            </div>
         </nav>
     )
 }
