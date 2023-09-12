@@ -1,6 +1,6 @@
 export default function Navbar() {
     return (
-        <nav className="grid grid-flow-col justify-stretch">
+        <nav className="grid grid-flow-col justify-stretch p-4">
             <div>
                 Justin Gee
             </div>

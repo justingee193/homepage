@@ -1,19 +1,22 @@
-import Navbar from '@/components/Navbar'
 import Paragraph from '@/components/Paragraph'
 import Bio from '@/components/Bio'
 
 export default function Home() {
     return (
-        <>
-            <header className="bg-gray-100">
-                <Navbar />
+        <div className="w-[75%] mx-auto">
+            <div>
                 <h3>Works</h3>
                 <Paragraph>
-                    This is the work section
+                    This is a thing.
                 </Paragraph>
-                <h3>Bio</h3>
-                <Bio>this is the buio</Bio>
-           </header>
-        </>
+            </div>
+            <div>
+                <h3 className="pb-4">Bio</h3>
+                <Bio year="1997">Born in Boston, Massachusetts</Bio>
+                <Bio year="2020">Graduated from University of Massachusetts, Amherst
+                    with a Bachelor's degree in Mathematics (concentration in Statistics)</Bio>
+                <Bio year="2021">Worked at Harbor Compliance</Bio>
+            </div>
+        </div>
     )
 }

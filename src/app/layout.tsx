@@ -1,3 +1,5 @@
+import Footer from '@/components/Footer'
+import Navbar from '@/components/Navbar'
 import '@/styles/globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
@@ -15,9 +17,13 @@ export default function RootLayout({
     children: React.ReactNode
 }) {
     return (
-        <html lang="en" className="dark">
+        <html lang="en">
             <body className="{inter.className} w-[85%] mx-auto">
-                {children}
+                <main>
+                <Navbar />
+                    {children}
+                </main>
+                <Footer />
             </body>
         </html>
     )

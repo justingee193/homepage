@@ -1,7 +1,7 @@
-export default function Bio({children}) {
+export default function Bio({ year, children }) {
     return (
        <div>
-            {children}
+            <span>{year} - </span>{children}
        </div> 
     )
 }
