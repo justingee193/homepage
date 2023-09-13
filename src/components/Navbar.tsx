@@ -10,7 +10,7 @@ export default function Navbar() {
                         <a className="hover:underline underline-offset-4" href="#">Works</a>
                     </li>
                     <li>
-                        <a className="hover:underline underline-offset-4" href="#">Github</a>
+                        <a className="hover:underline underline-offset-4" href="#">Source</a>
                     </li>
                     <li>
                         <a className="hover:underline underline-offset-4" href="#">Contact</a>

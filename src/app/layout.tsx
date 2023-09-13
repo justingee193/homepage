@@ -18,12 +18,12 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <body className="{inter.className} w-[40%] mx-auto">
+            <body className="{inter.className} w-[32%] mx-auto">
                 <main>
-                <Navbar />
+                    <Navbar />
                     {children}
+                    <Footer />
                 </main>
-                <Footer />
             </body>
         </html>
     )

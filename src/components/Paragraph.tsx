@@ -1,6 +1,6 @@
 export default function Paragraph({children}) {
     return (
-        <p className="text-lg">
+        <p>
             &nbsp; {children} 
         </p>
     )
