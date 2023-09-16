@@ -3,7 +3,7 @@ import Paragraph from './Paragraph'
 
 export default function Footer() {
     return (
-        <footer className="px-40">
+        <footer className="max-w-prose mx-auto">
             <Section>
                 Contact
             </Section>

@@ -1,7 +1,7 @@
-export default function Paragraph({children}) {
+export default function Paragraph({ children }) {
     return (
         <p>
-            &nbsp; {children} 
+            &nbsp; {children}
         </p>
     )
 }
