@@ -24,7 +24,7 @@ export default function Home() {
                 <Section>Bio</Section>
                 <Bio year="1997">Born in Boston, Massachusetts</Bio>
                 <Bio year="2020">Graduated from University of Massachusetts, Amherst
-                    with a Bachelor's degree in Mathematics (concentration in Statistics)</Bio>
+                    with a Bachelor's degree in Mathematics</Bio>
                 <Bio year="2021 to present">Working at Harbor Compliance</Bio>
             </div>
             <div className="w-fit">
