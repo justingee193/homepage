@@ -8,9 +8,9 @@ export default function Footer() {
                 <Section>
                     Contact
                 </Section>
-                    <Paragraph>LinkedIn</Paragraph>
-                    <Paragraph>Github</Paragraph>
-                    <Paragraph>Email</Paragraph>
+                <Paragraph>LinkedIn</Paragraph>
+                <Paragraph>Github</Paragraph>
+                <Paragraph>Email</Paragraph>
                 <div className="flex justify-center text-gray-600">
                     Copyright @ 2023 Justin Gee
                 </div>
